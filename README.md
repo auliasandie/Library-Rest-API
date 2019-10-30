@@ -87,7 +87,7 @@ $ npm run server
 
 ## Aplication Structure
 
-- `index.js` - Entry point of our aplication
+- `app.js` - Entry point of our aplication
 - `src/Config` - This folder contain configuration files of our app, such as mysql connection
 - `src/Models` - This folder containt files that define query of MysQL
 - `src/Routes` - Route of our app going here
