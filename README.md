@@ -17,7 +17,7 @@ A Collection Of Books API Using NodeJS MySQL ExpressJS
   <a href="#">
     <img title="Open Source Love" src="https://badges.frapsoft.com/os/v1/open-source.svg?v=102">
   </a>
-  <a href="https://github.com/wahyufahrozi?tab=followers">
+  <a href="https://github.com/auliasandie?tab=followers">
     <img title="Followers" src="https://img.shields.io/github/followers/auliasandie?style=social">
   </a>
   <a href="https://github.com/prettier/prettier"><img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg"></a>
