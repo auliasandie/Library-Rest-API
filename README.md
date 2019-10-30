@@ -104,14 +104,14 @@ $ npm run server
 | ------ | ---------------------------- | ---------------- | ---------------- | --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | GET    | /api/library                 | Get Books        | -                | -                                                                                                         | `title`:STRING `author`:STRING `genre`: INTEGER `status`:INTEGER |
 | POST   | /api/library                 | Add New Books    | -                | `title`:STRING (Required) `author`:STRING (Required)`status`:STRING (Required) `genre`:STRING (Required)  | -                                                                |
-| PUT    | api/library/edit/:id_books   | Edit Books By ID | `id`: INT (UUID) | `title`:STRING (Required) `author`:STRING (Required) `status`:STRING (Required) `genre`:STRING (Required) | -                                                                |
-| DELETE | api/library/delete/:id_books | Delete Books     | -                | `id`:INT                                                                                                  | -                                                                |
+| PUT    | api/library/edit/:id_book   | Edit Books By ID | `id`: INT (UUID) | `title`:STRING (Required) `author`:STRING (Required) `status`:STRING (Required) `genre`:STRING (Required) | -                                                                |
+| DELETE | api/library/delete/:id_book | Delete Books     | -                | `id`:INT                                                                                                  | -                                                                |
 
 ### **Genre**
 
 | Method | Endpoint           | Description    | Request Param | Request Body              | Request Query |
 | ------ | ------------------ | -------------- | ------------- | ------------------------- | ------------- |
-| GET    | /api/library/genre | Get All Genres | -             | -                         | -             |
+| GET    | /api/library/genre/:id_genre | Get All Genres | -             | -                         | -             |
 | POST   | /api/genre         | Add New Genre  | -             | `genre`:STRING (Required) | -             |
 
 ---
