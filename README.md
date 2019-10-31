@@ -1,4 +1,4 @@
-# 📚Books Library API
+# 📚Books Library
 
 A Collection Of Books API Using NodeJS MySQL ExpressJS
 
